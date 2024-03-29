@@ -5,6 +5,7 @@
 
 ## Диаграмма взаимодействия компонент
 Для построения диаграммы был выбран UML.
+
 ![img.png](content/component_diagram.png)
 ## Инструкция по запуску
 Создать виртуальное окружение:
@@ -31,4 +32,9 @@ mv .env.example .env
 python3 src/resources.py
 python3 src/stock_exchange.py
 python3 src/bots.py
+```
+Протестируем логику ботов и эндпоинты биржи:
+```bash
+pytest tests/test_bots.py
+pytest tests/test_stock_exchange.py
 ```
