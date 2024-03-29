@@ -52,7 +52,7 @@ async def bear_webhook(request: Request):
     if old_price is not None:
         price_change = (new_price - old_price) / old_price
         if price_change < SELL_THRESHOLD:
-            await sell_asset(asset_name, "BEAR", new_price)
+            await sell_asset(asset_name, "bear", new_price)
     if purchase_price is None or new_price < purchase_price:
         await buy_asset(asset_name, "bear", new_price)
         purchase_prices[asset_name] = new_price
