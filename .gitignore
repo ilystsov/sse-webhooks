@@ -1,0 +1,5 @@
+*env
+*.log
+.pytest_cache
+*pychache*
+.idea
