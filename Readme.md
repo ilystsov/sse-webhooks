@@ -18,7 +18,7 @@ python3 -m venv env
 ```
 Установить необходимые зависимости:
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 Все URL для чистоты хранятся как
 переменные виртуального окружения. 
