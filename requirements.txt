@@ -1,0 +1,10 @@
+uvicorn
+sse-starlette
+fastapi
+sseclient
+fastapi-utils
+aiohttp
+python-dotenv
+httpx
+pytest
+pytest-asyncio
